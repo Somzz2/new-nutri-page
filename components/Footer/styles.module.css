@@ -1,0 +1,38 @@
+.container {
+    background-color: #eee;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 150px;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container span {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1200px) {
+    .cardsArea {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .info {
+        margin: 20px 0;
+    }
+    
+}

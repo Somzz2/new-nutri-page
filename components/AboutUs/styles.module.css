@@ -1,0 +1,50 @@
+.container {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.container h1 {
+    font-family: 'Combo', sans-serif;
+    margin-bottom: 50px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .text {
+    width: 40%;
+    font-size: 20px;
+    margin: 0;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+
+    }
+
+    .about .text {
+        width: 80%;
+        font-size: 18px;
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about .text {
+        margin: 50px 15px;
+    }
+}
