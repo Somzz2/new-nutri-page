@@ -8,15 +8,16 @@ import { Consultancy } from '../components/Consultancy'
 import { Footer } from '../components/Footer'
 import Header from '../components/Header'
 import NutritionConsultations from '../components/NutritionConsultations'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css';
+
 
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Ana Carla Falcão</title>
+        <title>Ana Carla Falcão - Nutricionista</title>
         
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.ico" />
       </Head>
       <Header />
       <Banner />

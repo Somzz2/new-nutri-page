@@ -9,11 +9,11 @@ export const Footer = () => {
         <div className={styles.container}>
             <div className={styles.info}>
                 <Image src={logo}  width={80} height={50}/>
-                <span>Fulana Beltrana</span>
+                <span>Nutricionista Ana Carla Falcão</span>
             </div>
             <div className={styles.info}>
                 <Image src={wpp}  width={50} height={50}/>
-                <span>(99) 99999-9999</span>
+                <span>(00) 00000-0000</span>
             </div>
             <div className={styles.info}>
                 <Image src={location}  width={50} height={50}/>
